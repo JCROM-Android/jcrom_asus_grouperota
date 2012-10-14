@@ -2,18 +2,13 @@
 SRC_SYSTEM=system
 DST_SYSTEM=../system
 cp -a ${SRC_SYSTEM}/bin/btmacreader ${DST_SYSTEM}/bin/btmacreader
-cp -a ${SRC_SYSTEM}/bin/glgps ${DST_SYSTEM}/bin/glgps
 cp -a ${SRC_SYSTEM}/bin/sensors-config ${DST_SYSTEM}/bin/sensors-config
 cp -a ${SRC_SYSTEM}/bin/tf_daemon ${DST_SYSTEM}/bin/tf_daemon
 cp -a ${SRC_SYSTEM}/etc/apns-conf.xml ${DST_SYSTEM}/etc/apns-conf.xml
 cp -a ${SRC_SYSTEM}/etc/asound.conf ${DST_SYSTEM}/etc/asound.conf
-cp -a ${SRC_SYSTEM}/etc/firmware/touch_fw.ekt ${DST_SYSTEM}/etc/firmware/touch_fw.ekt
-cp -a ${SRC_SYSTEM}/etc/gps/gpsconfig.xml ${DST_SYSTEM}/etc/gps/gpsconfig.xml
 cp -a ${SRC_SYSTEM}/etc/preferred-apps/google.xml ${DST_SYSTEM}/etc/preferred-apps/google.xml
 cp -a ${SRC_SYSTEM}/etc/updatecmds/google_generic_update.txt ${DST_SYSTEM}/etc/updatecmds/google_generic_update.txt
 cp -a ${SRC_SYSTEM}/lib/hw/camera.tegra3.so ${DST_SYSTEM}/lib/hw/camera.tegra3.so
-cp -a ${SRC_SYSTEM}/lib/hw/gps.tegra3.so ${DST_SYSTEM}/lib/hw/gps.tegra3.so
-cp -a ${SRC_SYSTEM}/lib/hw/keystore.grouper.so ${DST_SYSTEM}/lib/hw/keystore.grouper.so
 cp -a ${SRC_SYSTEM}/lib/hw/sensors.grouper.so ${DST_SYSTEM}/lib/hw/sensors.grouper.so
 cp -a ${SRC_SYSTEM}/lib/libsensors.lightsensor.so ${DST_SYSTEM}/lib/libsensors.lightsensor.so
 cp -a ${SRC_SYSTEM}/media/LMprec_508.emd ${DST_SYSTEM}/media/LMprec_508.emd
@@ -23,7 +18,6 @@ cp -a ${SRC_SYSTEM}/media/video/AndroidInSpace.240p.mp4 ${DST_SYSTEM}/media/vide
 cp -a ${SRC_SYSTEM}/media/video/AndroidInSpace.480p.mp4 ${DST_SYSTEM}/media/video/AndroidInSpace.480p.mp4
 cp -a ${SRC_SYSTEM}/media/video/Sunset.240p.mp4 ${DST_SYSTEM}/media/video/Sunset.240p.mp4
 cp -a ${SRC_SYSTEM}/media/video/Sunset.480p.mp4 ${DST_SYSTEM}/media/video/Sunset.480p.mp4
-cp -a ${SRC_SYSTEM}/vendor/firmware/libpn544_fw.so ${DST_SYSTEM}/vendor/firmware/libpn544_fw.so
 cp -a ${SRC_SYSTEM}/vendor/lib/drm/libdrmwvmplugin.so ${DST_SYSTEM}/vendor/lib/drm/libdrmwvmplugin.so
 cp -a ${SRC_SYSTEM}/vendor/lib/libwvm.so ${DST_SYSTEM}/vendor/lib/libwvm.so
 cp -a ${SRC_SYSTEM}/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin ${DST_SYSTEM}/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32/full_model.bin
